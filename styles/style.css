@@ -29,3 +29,27 @@ nav a:hover{
     font-weight: 500;
     color: #7E459B;
 }
+
+.habilidades i {
+    font-size: 1.8rem;
+}
+
+.tamanho-card {
+    width: 18rem;
+}
+
+.imagem-cards {
+    height: 40vh;
+    object-fit: cover;
+    object-position: top;
+}
+
+.btn-estilo {
+    color: #fff;
+    background-color: #7E459B;
+    border-color: #7E459B;
+}
+
+footer a:hover{
+    font-weight: 500;
+}
