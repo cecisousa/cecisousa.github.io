@@ -1,0 +1,261 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    
+}
+
+/* html{
+    width: 100vw;
+    height: 100vh;
+} */
+
+body{
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.pagina{
+    height: 100vh;
+    display: flex;
+}
+
+.conteudo{
+    width: 50%;
+    height: 100%;
+    background-color: #003c86;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.estacao{
+    width: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    right: 0;
+
+}
+
+.conteudo__header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    margin-left: 250px;
+}
+
+.conteudo__imagem > img{
+    width: 70%;
+}
+
+.conteudo__link{
+    margin-right: 90px;
+}
+
+.conteudo__link > a{
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: lowercase;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.conteudo__titulo{
+    margin-left: 250px;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.conteudo__texto{
+    width: 300px;
+    margin-left: 250px;
+}
+
+.conteudo__texto > p{
+    color: white;
+    font-weight: lighter;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 28px;
+}
+
+.estacao__mapa{
+    display: flex;
+}
+
+.estacao__lista{
+    display: flex;
+    margin-top: 70px;
+}
+
+.estacao__lista > li{
+    font-style: italic;
+    font-weight: lighter;
+    line-height: 50px;
+}
+
+.estacao__lista-itens{
+    font-style: italic;
+    font-weight: lighter;
+    line-height: 50px; 
+}
+
+.estacao__barra{
+    background-color: #003c86;
+    border-radius: 20px;
+    width: 30px;
+    height: 100%;
+    margin-left: 58px;
+    margin-top: 40px;
+     
+}
+
+.bolinha{
+    line-height: 50px;
+    list-style: disc;
+    color: #ffffff;
+    font-size: 45px;
+    margin-top: 40px;
+    margin-left: 3px;
+}
+
+ul {
+    list-style: none;
+}
+
+.estacao__assinatura{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.estacao__assinatura > p{
+    font-size: 10px;
+    padding-bottom: 15px;
+    padding-right: 5%;
+}
+
+@media (max-width: 1350px) {
+    .conteudo__header{
+        margin-top: 130px;
+    }
+
+    .conteudo__titulo{
+        margin-top: 50px;
+    }
+    .estacao__assinatura > p {
+        padding-right: 15%;
+    }
+}
+
+@media (max-width: 1200px){
+    .conteudo__header {
+        margin-left: 120px;
+    }
+
+    .conteudo__titulo {
+        margin-left: 120px;
+    }
+
+    .conteudo__texto {
+        margin-left: 120px;
+    }
+    
+}
+
+@media (max-width: 960px){
+    .pagina {
+        display: block;
+    }
+
+    .conteudo {
+        position: static;
+        width: 100%;
+    }
+
+    .conteudo__header {
+        margin-top: 0;
+        padding-top: 150px;
+        margin-left: 200px;
+    }
+
+    .conteudo__imagem > img {
+        width: 85%;
+    }
+
+    .estacao {
+        position: static;
+    }
+
+    .conteudo__link > a {
+        font-size: 20px;
+    }
+
+    .conteudo__titulo {
+        font-size: 32px;
+        margin-left: 200px;
+
+    }
+
+    .conteudo__texto {
+        width: 500px;
+        margin-left: 200px;
+    }
+
+    .conteudo__texto > p {
+        font-size: 24px;
+        line-height: 2;
+    }
+
+    hr {
+        width: 100%;
+        border-color: #003c86;
+        border-style: solid;
+        border-width: 3px;
+    }
+
+    .estacao {
+        width: 100%;
+    }
+
+    .estacao__barra {
+        width: 40px;
+        border-radius: 25px;
+    }
+
+    .bolinha {
+        font-size: 55px;
+        margin-left: 12px;
+    }
+
+    ul {
+        font-size: 24px;
+    }
+}
+
+    @media (max-width: 740px){
+
+        .conteudo__header{
+            margin-left: 100px;
+        }
+
+        .conteudo__titulo{
+            margin-left: 100px;
+
+        }
+
+        .conteudo__texto{
+            margin-left: 100px;
+
+        }
+    }
+}
+
+    @media (max-width: 620px){
+        .conteudo__texto {
+            width: 350px;
+        }
+    }
