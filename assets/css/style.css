@@ -50,6 +50,14 @@ nav a:hover{
     border-color: #7E459B;
 }
 
+.btn-estilo:hover {
+    color: #d3d3d3;
+}
+
+.imagem-interna-card {
+    width: 100%;
+}
+
 footer a:hover{
     font-weight: 500;
 }
