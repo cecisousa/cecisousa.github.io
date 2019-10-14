@@ -76,12 +76,14 @@ button {
     }
 
 .adicionada {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     padding: 25px;
     margin: 0;
-    width: 65%;
+    width: 55%;
     word-wrap: break-word;
+    display: flex;
+    align-items: center;
 }
 
 .realizada {
@@ -148,7 +150,7 @@ span {
     }
 
     .adicionada {
-        width: 60%;
+        width: 45%;
     }
 
     .etiqueta {
@@ -190,7 +192,7 @@ span {
     }
 
     .adicionada {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .etiqueta {
@@ -204,7 +206,7 @@ span {
 
 @media (max-width: 420px){
     .adicionada {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .etiqueta {
@@ -216,7 +218,7 @@ span {
     }
 
     button {
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
@@ -227,8 +229,8 @@ span {
     }
 
     .adicionada {
-        padding: 15px;
-        width: 55%;
+        padding: 12px;
+        width: 40%;
     }
     
     .etiqueta {
@@ -241,4 +243,3 @@ span {
         width: 20%;
     }
 }
-
