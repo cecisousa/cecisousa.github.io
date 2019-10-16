@@ -28,20 +28,12 @@ btnAdd.addEventListener("click", function(evento){
         const novaTarefa = document.createElement("p");
         novaTarefa.textContent = valorInput;
 
-        novaTarefa.addEventListener("dblclick", function(){
-            novaTarefa.classList.remove("realizada");
-            novaTarefa.setAttribute("contentEditable", true);
-        });
-
         novoItem.appendChild(novaTarefa);
         novaTarefa.classList.add("adicionada");
 
         novaTarefa.addEventListener("click", function(){
-            if (novaTarefa.classList.contains("realizada")){
-                novaTarefa.classList.remove("realizada");
-            } else {
-                novaTarefa.classList.add("realizada");
-            }
+            novaTarefa.classList.remove("realizada");
+            novaTarefa.setAttribute("contentEditable", true);
         });
 
         const novaEtiqueta = document.createElement("p");
@@ -53,9 +45,21 @@ btnAdd.addEventListener("click", function(evento){
             novaEtiqueta.setAttribute("contentEditable", true);
         });
 
+        const btnEditar = document.createElement("span");
+        btnEditar.textContent = "✔";
+        novoItem.appendChild(btnEditar);
+
         const btnExcluir = document.createElement("span");
         btnExcluir.textContent = "✖";
         novoItem.appendChild(btnExcluir);
+
+        btnEditar.addEventListener("click", function(){
+            if (novaTarefa.classList.contains("realizada")){
+                novaTarefa.classList.remove("realizada");
+            } else {
+                novaTarefa.classList.add("realizada");
+            }
+        });
 
         btnExcluir.addEventListener("click", function(){
             tarefasAdicionadas.removeChild(novoItem);
