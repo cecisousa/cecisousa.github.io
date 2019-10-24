@@ -71,7 +71,7 @@ p {
     
 }
 
-.container img{
+.img-thumbnail{
     width: 50%;
     height: 50%;
 }
@@ -121,7 +121,7 @@ p {
     background-color: transparent;
 }
 
-@media (max-width:576px) {
+/* @media (max-width:576px) {
     .modal-dialog {
         max-width: 750px;
     }
@@ -129,7 +129,7 @@ p {
         width: 20%;
         height: 10%;
     }
-}
+} */
 
 /* @media (min-width:576px) {
     .modal-dialog {
