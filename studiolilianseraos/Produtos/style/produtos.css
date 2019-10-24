@@ -97,6 +97,8 @@ p {
 
 .modal-footer {
     padding: 4px;
+    background-color: rgba(222, 222, 220, 0.3);
+    border-radius: 6px;
 }
 .thumbnail{
     display: flex;
