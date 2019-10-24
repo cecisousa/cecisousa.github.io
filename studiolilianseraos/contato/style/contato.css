@@ -1,0 +1,194 @@
+* {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#navbarNavAltMarkup img {
+    width: 30px;
+    margin: 10px;
+}
+
+nav {
+    border-bottom: 3px solid #DEA257;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: white;
+    font-size: 12px;
+    border-top: 3px solid #DEA257;
+    padding-top: 10px;
+}
+
+footer > p {
+    padding-bottom: 12px;
+}
+
+h2 {
+    margin-bottom: 2.5%;
+    color: #DEA257;
+  }
+
+p {
+    margin: 0;
+}
+
+.logo {
+    width: 150px;
+}
+
+.contato {
+    display: flex;
+}
+
+.conteudo {
+    width: 50%;
+}
+
+.conteudo-texto {
+    width: 50%;
+    margin: 2.5% auto;
+}
+
+.img {
+    width: 50%;
+    
+}
+
+.puff {
+    width: 75%;
+}
+
+.mapa {
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.mapa-mobile {
+    display: none;
+}
+
+.size-80 {
+    width: 80%;
+}
+
+.size-20 {
+    width: 20%;
+}
+
+.sustent {
+    width: 20px;
+}
+
+@media (max-width: 1024px) {
+    .img {
+        margin: auto 0;;
+    }
+
+    .puff {
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .contato {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .conteudo {
+        width: 100%;
+    }
+
+    .conteudo-texto {
+        width: 30%;
+    }
+
+    .mapa {
+        width: 100%;
+        display: flex;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .puff {
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        width: 45%;
+    }
+}
+
+@media (max-width: 425px) {
+    .conteudo-texto {
+        width: 55%;
+    }
+}
+
+@media (max-width: 375px) {
+    .conteudo-texto {
+        width: 62%;
+    }
+
+    .mapa {
+        display: none;
+    }
+
+    .mapa-mobile {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .contato {
+        width: 100%;
+    }
+
+    .conteudo {
+        width: 72%;
+    }
+
+    .conteudo-texto {
+        width: 100%;
+    }
+
+    .mapa-mobile {
+        margin: 0;
+        padding: 2%;
+    }
+
+    .puff {
+        width: 65%;
+        padding: 2%;
+    }
+}
+
+@media (min-width: 500px) {
+    .block-min-width-500 {
+        display: none;
+    }
+}
+@media (max-width: 500px) {
+    .block-max-width-500 {
+        display: none;
+    }
+}
+@media (max-width: 769px) {
+    .block-max-width-992 {
+        display: none;
+    }
+}
