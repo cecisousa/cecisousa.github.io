@@ -121,6 +121,16 @@ img{
     background-color: transparent;
 }
 
+@media (max-width:576px) {
+    .modal-dialog {
+        max-width: 750px;
+    }
+    img{
+        width: 20%;
+        height: 30%;
+    }
+}
+
 /* @media (min-width:576px) {
     .modal-dialog {
         max-width: 750px;
