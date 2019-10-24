@@ -71,7 +71,7 @@ p {
     
 }
 
-img{
+.container img{
     width: 50%;
     height: 50%;
 }
