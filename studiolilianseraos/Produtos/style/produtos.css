@@ -105,6 +105,11 @@ p {
     justify-content: center;
 }
 
+.container1{
+    margin-bottom: 70px;
+    width: 80%;
+}
+
 /* ///////////////////////////////////////// */
 .btn:focus, .btn:active, button:focus, button:active {
     outline: none !important;
@@ -147,9 +152,6 @@ p {
 @media (min-width: 500px) {
     .block-min-width-500 {
         display: none;
-    }
-    .container{
-
     }
 }
 @media (max-width: 500px) {
