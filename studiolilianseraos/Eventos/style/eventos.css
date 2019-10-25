@@ -18,10 +18,6 @@ footer {
         padding-top: 10px;
 }    
 
-footer > p {
-    padding-bottom: 12px;
-}
-
 p {
     text-align: center;
 }
@@ -40,7 +36,7 @@ p {
 .bnt-cinza {
     color: gray!important;
     /* background-color: gray!important; */
-    font-size: 13px;
+    font-size: 16px;
     border: none;
 }
 
@@ -72,6 +68,10 @@ p {
     height: 70px;
     padding: 2px;  
 }   
+
+.prefeitura {
+    height: 100%;
+}
 
 .conteudo-eventos {
     width: 50%;
