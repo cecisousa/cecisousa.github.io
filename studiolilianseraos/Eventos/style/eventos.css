@@ -85,6 +85,12 @@ p {
     margin: 10px;
 }
 
+@media (max-width: 768px) {
+    .parceiros2 {
+        width: 80%;
+    }
+}
+
  @media (min-width: 500px) {
     .block-min-width-500 {
         display: none;
