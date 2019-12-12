@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina&display=swap" rel="stylesheet');
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0 60px;
+    min-height: 90px;
+    padding: 0 5%;
+    color: #F5A91E;
+    background-color: #560027;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    z-index: 99;
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-self: center;
+    width: 100px;
+    height: 100px;
+    padding: 12px;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    margin-left: 16px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+  }
+  
+  .navbar-links a {
+    color: #F5A91E;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+    text-decoration: none;
+  }
+
+  .logo {
+    display: flex;
+    flex-flow: row;
+  }
+
+  .texto-logo {
+    width: 150px;
+    margin: 18px;
+  }
+  

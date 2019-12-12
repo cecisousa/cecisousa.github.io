@@ -1,0 +1,19 @@
+.autores {
+    min-height: 50vh;
+}
+
+.divAutores {
+    width: 60%;
+    margin: 50px auto;
+}
+
+.divSearch {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+.divBtn {
+    display: flex;
+    align-self: center;
+}

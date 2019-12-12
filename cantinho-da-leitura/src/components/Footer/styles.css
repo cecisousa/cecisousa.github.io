@@ -1,0 +1,13 @@
+footer {
+    background-color: #560027;
+    padding: 9.5px;
+    color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+footer > a {
+    text-decoration: none;
+    color: inherit;
+}

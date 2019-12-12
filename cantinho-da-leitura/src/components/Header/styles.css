@@ -1,0 +1,87 @@
+.home-header {
+  background-image: url("../../assets/img/page01-home.jpeg");
+  min-height: 96vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.porque-header {
+  background-image: url("../../assets/img/page02-porque.jpeg");
+  height: 40vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.melhores-header {
+  background-image: url("../../assets/img/page03-melhores.jpeg");
+  height: 40vh;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.autores-header {
+  background-image: url("../../assets/img/page04-autores.jpeg");
+  height: 40vh;
+  background-position: 0 20%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.dicas-header {
+  background-image: url("../../assets/img/page05-dicas.jpeg");
+  height: 40vh;
+  background-position: 0 20%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: overlay;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 15px 0;
+}
+
+h1 {
+  font-size: 64px;
+  color: #ffffff;
+  padding: 16px;
+  margin-top: 150px;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.75);
+}

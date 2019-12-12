@@ -1,0 +1,39 @@
+.melhoresContent {
+    display: flex;
+    background-color: #fce3b6;
+    margin: 30px auto;
+    border-radius: 20px;
+    width: 85%;
+}
+
+.melhoresImagem {
+    width: 170px;
+    height: 220px;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+.melhoresTexto {
+    display: flex;
+    flex-flow: column;
+    align-self: center;
+    padding: 0 20px;
+}
+
+.melhoresTitulo {
+    margin: 0;
+    width: 400px;
+    color: #560027;
+}
+
+.melhoresAutor {
+    font-style: italic;
+    font-size: 20px;
+    color: #560027;
+}
+
+.melhoresDescricao {
+    font-size: 20px;
+    color: #560027; 
+    width: 720px;  
+}

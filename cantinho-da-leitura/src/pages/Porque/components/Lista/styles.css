@@ -1,0 +1,42 @@
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+.secaoLista {
+    display: flex;
+    flex-flow: row-reverse;
+}
+
+.item {
+    font-size: 20px;
+    margin: 35px;
+    color: #560027;
+}
+
+.titulo {
+    width: 340px;
+    text-align: center;
+    color: #560027;
+    margin: 10px auto;
+    border-bottom: 3px solid #F5A91E;
+}
+
+.lista {
+    margin: 30px;
+    display: flex;
+    flex-flow: column;
+    align-content: space-around;
+}
+
+.detalheLista {
+    background: linear-gradient(90deg, rgba(245,169,30,1) 0%, rgba(249,199,106,1) 35%, rgba(253,232,193,1) 100%);
+}
+
+
+.imagem {
+    height: 480px;
+    margin: 30px;
+    border-radius: 10px;
+}

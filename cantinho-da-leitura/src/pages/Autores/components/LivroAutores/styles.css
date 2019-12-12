@@ -1,0 +1,39 @@
+.autoresText {
+    display: flex;
+    flex-flow: column;
+    background-color: #fce3b6;
+    margin: 50px auto;
+    border-radius: 20px;
+    width: 40%;
+}
+
+.autoresTitulo {
+    margin: 30px 25px 10px;
+    text-align: center;
+    color: #560027;
+}
+
+.autoresAutor {
+    margin: 10px 25px;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    color: #560027;
+}
+
+.autoresData {
+    margin: 10px 25px;
+    text-align: center;
+    font-size: 20px;
+    color: #560027; 
+}
+
+.botaoAutor {
+    margin: 20px 0;
+    padding: 15px;
+    width: 140px;
+    background-color: #560027;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+}

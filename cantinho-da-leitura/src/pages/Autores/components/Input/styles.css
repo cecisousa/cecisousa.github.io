@@ -1,0 +1,21 @@
+.campo {
+    font-size: 16px;
+    box-sizing: border-box;
+    display: block;
+    width: 70%;
+    padding: 16px;
+    margin: 16px;
+    border: 2px solid #560027;
+    border-radius: 3px;
+  }
+  
+  .campo:focus {
+    outline: none;
+    border-color: #68193c;
+    box-shadow: 0 0 10px #753953;
+  }
+  
+  .grupo__erro {
+    color: red;
+    font-size: small;
+}

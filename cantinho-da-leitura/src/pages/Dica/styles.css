@@ -1,0 +1,10 @@
+.divDica {
+    width: 60%;
+    margin: 50px auto;
+}
+
+.divBotao {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+}

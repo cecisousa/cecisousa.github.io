@@ -1,0 +1,33 @@
+.divContentDica {
+    display: flex;
+    background-color: #fce3b6;
+    margin: 50px auto;
+    border-radius: 20px;
+    width: 50%;    
+}
+
+.imagemLivroDica {
+    width: 250px;
+    height: 350px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.divContentText {
+    display: flex;
+    flex-flow: column;
+    align-self: center;
+}
+
+.tituloDica {
+    margin: 15px;
+    width: 250px;
+    color: #560027;
+}
+
+.autorDica {
+    margin: 15px;
+    font-style: italic;
+    font-size: 20px;
+    color: #560027;
+}

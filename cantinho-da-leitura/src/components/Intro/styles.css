@@ -1,0 +1,26 @@
+.intro {
+    margin: 50px auto;
+    display: flex;
+}
+
+.divIntro {
+    margin: auto 20px;
+}
+
+.textoIntro {
+    margin: 30px;
+    color: #560027;
+    text-align: center;
+}
+
+.nomeSite {
+    font-weight: bold;
+    color: #F5A91E;
+    font-size: 22px;
+}
+
+.imagemIntro {
+    width: 350px;
+    margin: 30px;
+    border-radius: 10px;
+}

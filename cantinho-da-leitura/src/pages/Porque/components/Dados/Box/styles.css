@@ -1,0 +1,50 @@
+.box {
+    display: flex;
+    background-color: #fce3b6;
+    margin: 30px auto;
+    border-radius: 20px;
+    width: 90%;
+}
+
+.imagemBox {
+    width: 350px;
+    height: 250px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.content {
+    display: flex;
+    flex-flow: column;
+    align-self: center;
+    padding: 0 20px;
+}
+
+.tituloManchete {
+    margin: 0;
+    width: 600px;
+    color: #560027;
+}
+
+.nomeVeiculo {
+    font-style: italic;
+    font-size: 16px;
+    color: #560027;
+}
+
+.descricaoNoticia {
+    font-size: 20px;
+    color: #560027; 
+    width: 600px;  
+    margin: 10px 0;
+}
+
+.botaoNoticia {
+    margin: 20px 0;
+    padding: 15px;
+    width: 120px;
+    background-color: #560027;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+}
